@@ -3,14 +3,14 @@ cpu_item.name = "cpu"
 
 cpu_item.icons = {
     {
-        icon = "__skibidi__/icons/cpu.png",
+        icon = "__ReFactorio__/icons/cpu.png",
         icon_size = 64,
     }
 }
 
 cpu_item.pictures = {
     {
-        filename = "__skibidi__/icons/cpu.png",
+        filename = "__ReFactorio__/icons/cpu.png",
         width = 64,
         height = 64,
         scale = 0.65,

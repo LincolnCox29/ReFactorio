@@ -3,14 +3,14 @@ silicon_plate_item.name = "silicon-plate"
 
 silicon_plate_item.icons = {
     {
-        icon = "__skibidi__/icons/silicon-plate.png",
+        icon = "__ReFactorio__/icons/silicon-plate.png",
         icon_size = 64,
     }
 }
 
 silicon_plate_item.pictures = {
     {
-        filename = "__skibidi__/icons/silicon-plate.png",
+        filename = "__ReFactorio__/icons/silicon-plate.png",
         width = 64,
         height = 64,
         scale = 0.50,

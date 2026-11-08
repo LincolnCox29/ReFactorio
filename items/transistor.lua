@@ -3,14 +3,14 @@ transistor_item.name = "transistor"
 
 transistor_item.icons = {
     {
-        icon = "__skibidi__/icons/transistor.png",
+        icon = "__ReFactorio__/icons/transistor.png",
         icon_size = 64,
     }
 }
 
 transistor_item.pictures = {
     {
-        filename = "__skibidi__/icons/transistor.png",
+        filename = "__ReFactorio__/icons/transistor.png",
         width = 64,
         height = 64,
         scale = 0.65,

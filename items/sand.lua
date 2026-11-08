@@ -3,14 +3,14 @@ sand_item.name = "sand"
 
 sand_item.icons = {
     {
-        icon = "__skibidi__/icons/sand.png",
+        icon = "__ReFactorio__/icons/sand.png",
         icon_size = 64,
     }
 }
 
 sand_item.pictures = {
     {
-        filename = "__skibidi__/icons/sand.png",
+        filename = "__ReFactorio__/icons/sand.png",
         width = 64,
         height = 64,
         scale = 0.75,

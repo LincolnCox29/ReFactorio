@@ -3,14 +3,14 @@ capacitor_item.name = "capacitor"
 
 capacitor_item.icons = {
     {
-        icon = "__skibidi__/icons/capacitor.png",
+        icon = "__ReFactorio__/icons/capacitor.png",
         icon_size = 64,
     }
 }
 
 capacitor_item.pictures = {
     {
-        filename = "__skibidi__/icons/capacitor.png",
+        filename = "__ReFactorio__/icons/capacitor.png",
         width = 64,
         height = 64,
         scale = 0.65,
