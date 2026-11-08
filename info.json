@@ -1,0 +1,22 @@
+{
+    "name": "ReFactorio",
+    "version": "0.0.1",
+    "factorio_version": "2.1",
+    "title": "ReFactorio",
+    "author": "LincolnCox29, MHSPlay",
+    "contact": "",
+    "homepage": "",
+    "description": "",
+    "dependencies": [
+        "base >= 2.1.20"
+    ],
+    "package": {
+        "ignore": [],
+        "scripts": {}
+    },
+    "quality_required": false,
+    "space_travel_required": false,
+    "spoiling_required": false,
+    "freezing_required": false,
+    "segmented_units_required": false
+}
