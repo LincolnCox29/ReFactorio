@@ -1,8 +1,7 @@
 function try(func, ...)
-    local args = {...}
-    local ok, res = pcall(func, args)
+    local ok, res = pcall(func, ...)
     if ok then
         return res
     end
-    return nil
+    return nil, res
 end
