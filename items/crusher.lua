@@ -1,5 +1,6 @@
 local crusher_item = table.deepcopy(data.raw["item"]["assembling-machine-2"])
 crusher_item.name = "crusher"
+crusher_item.place_result = "crusher"
 
 crusher_item.icons = {
     {
