@@ -1,9 +1,9 @@
 local mother_board_recipe = data.raw.recipe["advanced-circuit"]
 if mother_board_recipe then
     mother_board_recipe.ingredients = {
-        {type = "item", name = "capacitor", amount = 1},
-        {type = "item", name = "resistor", amount = 1},
-        {type = "item", name = "transistor", amount = 1},
+        {type = "item", name = "capacitor", amount = 5},
+        {type = "item", name = "resistor", amount = 5},
+        {type = "item", name = "transistor", amount = 5},
         {type = "item", name = "electronic-circuit", amount = 2},
     }
     mother_board_recipe.energy_required = 6

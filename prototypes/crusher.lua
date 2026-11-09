@@ -39,4 +39,4 @@ crusher.placeable_by = {
 
 crusher.crafting_categories = {"refactorio-crushing"}
 
-return { crusher }
+return crusher

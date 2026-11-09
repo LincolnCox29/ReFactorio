@@ -7,6 +7,7 @@ return {
     ingredients = {
         {type = "item", name = "copper-plate", amount = 3},
         {type = "item", name = "silicon-plate", amount = 6},
+        {type = "item", name = "electronic-circuit", amount = 2},
     },
     results = {
         {type = "item", name = "cpu", amount = 1}

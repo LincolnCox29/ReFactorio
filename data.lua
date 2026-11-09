@@ -1,33 +1,28 @@
-require("tools/try.lua")
-
 local item_files = {
     "sand", 
+    "coal_powder",
     "silicon_plate", 
-    "transistor", 
-    "capacitor", 
-    "resistor", 
+    "transistor",
+    "capacitor",
+    "resistor",
     "cpu",
-    "crusher"
+    "crusher",
+    "crushing",
+    "silicon-processing",
+    "radio-components",
 }
 
--- todo: temp
-local crushing_category = require("recipes-category.crushing")
-data:extend({crushing_category})
+function extendFrom(dirName, filename)
+    local ok, toExtend = pcall(require, dirName .. filename)
+    if ok then
+        data:extend({toExtend})
+    end    
+end
 
 for _, filename in pairs(item_files) do
-    local item = require("items." .. filename)
-    local recipe = require("recipes." .. filename)
-    --local recipe_category = try(require, "recipes-category." .. filename)
-    local machine = try(require, "prototypes." .. filename)
-
-    if machine ~= nil then
-        data:extend(machine)
-    end
-
-    --if recipe_category ~= nil then
-    --    data:extend(recipe_category)
-    --end
-
-    data:extend({item})
-    data:extend({recipe})
+    extendFrom("items.", filename)
+    extendFrom("recipes.", filename)
+    extendFrom("recipes-category.", filename)
+    extendFrom("prototypes.", filename)
+    extendFrom("technologies.", filename)
 end

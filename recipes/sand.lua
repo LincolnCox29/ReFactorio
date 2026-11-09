@@ -3,7 +3,7 @@ return {
     name = "sand",
     categories = {"refactorio-crushing"},
     energy_required = 1.0,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {type = "item", name = "stone", amount = 1},
         {type = "fluid", name = "water", amount = 15}
