@@ -18,3 +18,20 @@ if compute_module_recipe then
     }
     compute_module_recipe.energy_required = 10
 end
+
+local tech = data.raw["technology"]["advanced-circuit"]
+if tech then
+    table.insert(tech.prerequisites, 
+        "radio-components"
+    )
+    effects = {
+        { type = "unlock-recipe", recipe = "microelectronics" },
+    }
+end
+
+local tech = data.raw["technology"]["processing-unit"]
+if tech then
+    tech.prerequisites = {
+        "microelectronics"
+    }
+end

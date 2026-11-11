@@ -10,6 +10,8 @@ local item_files = {
     "crushing",
     "silicon-processing",
     "radio-components",
+    "microchip",
+    "microelectronics"
 }
 
 function extendFrom(dirName, filename)
