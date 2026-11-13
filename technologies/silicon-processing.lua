@@ -6,7 +6,7 @@ return {
     
     prerequisites = {
         "sulfur-processing",
-        "crushing"
+        "alloy-smelting"
     },
 
     unit = {

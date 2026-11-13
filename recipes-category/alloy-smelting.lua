@@ -1,6 +1,4 @@
 return {
-    {
-        type = "recipe-category",
-        name = "alloy-smelting"
-    }
+    type = "recipe-category",
+    name = "alloy-smelting"
 }

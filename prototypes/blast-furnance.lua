@@ -1,5 +1,6 @@
 local blast_furnance = table.deepcopy(data.raw["assembling-machine"]["assembling-machine-2"])
 blast_furnance.name = "blast-furnance"
+blast_furnance.energy_source = table.deepcopy(data.raw["furnace"]["steel-furnace"].energy_source)
 
 blast_furnance.icons = {
     {
@@ -21,9 +22,9 @@ blast_furnance.graphics_set = {
                 frame_count = 16,
                 line_length = 4,
 
-                animation_speed = 0.25,
+                animation_speed = 0.4,
 
-                scale = 0.2,
+                scale = 0.15,
 
                 shift = util.by_pixel(0, 0),
             }

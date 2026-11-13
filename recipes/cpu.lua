@@ -1,7 +1,7 @@
 return {
     type = "recipe",
     name = "cpu",
-    categories = {"advanced-crafting", "crafting-with-fluid"},
+    categories = {"advanced-crafting"},
     energy_required = 5.0,
     enabled = false,
     ingredients = {

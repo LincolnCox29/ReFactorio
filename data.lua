@@ -1,4 +1,5 @@
 local item_files = {
+    "alloy-smelting",
     "sand", 
     "coal_powder",
     "silicon_plate", 
@@ -6,12 +7,16 @@ local item_files = {
     "capacitor",
     "resistor",
     "cpu",
+    "ram",
     "crusher",
     "crushing",
+    "blast-furnance",
+    "alloy-smelting",
     "silicon-processing",
     "radio-components",
+    "volatile-memory",
     "microchip",
-    "microelectronics"
+    "microelectronics",
 }
 
 function extendFrom(dirName, filename)
