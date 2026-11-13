@@ -1,7 +1,7 @@
 return {
     type = "recipe",
     name = "capacitor",
-    categories = {"advanced-crafting"},
+    categories = {"crafting"},
     energy_required = 1.0,
     enabled = false,
     ingredients = {

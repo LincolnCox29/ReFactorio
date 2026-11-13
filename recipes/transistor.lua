@@ -1,7 +1,7 @@
 return {
     type = "recipe",
     name = "transistor",
-    categories = {"advanced-crafting"},
+    categories = {"crafting"},
     energy_required = 3,
     enabled = false,
     ingredients = {
