@@ -4,7 +4,7 @@ blast_furnance.energy_source = table.deepcopy(data.raw["furnace"]["steel-furnace
 
 blast_furnance.icons = {
     {
-        icon = "__ReFactorio__/icons/blast-furnance.png",
+        icon = "__SiliconAge__/icons/blast-furnance.png",
         icon_size = 64,
     }
 }
@@ -13,7 +13,7 @@ blast_furnance.graphics_set = {
     animation = {
         layers = {
             {
-                filename = "__ReFactorio__/animations/blast-furnance-on.png",
+                filename = "__SiliconAge__/animations/blast-furnance-on.png",
                 priority = "high",
 
                 width = 640,

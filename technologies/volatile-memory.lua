@@ -3,7 +3,7 @@ return {
     name = "volatile-memory",
     icons = {
         {
-            icon = "__ReFactorio__/icons/ram.png",
+            icon = "__SiliconAge__/icons/ram.png",
             icon_size = 64,
         }
     },

@@ -3,14 +3,14 @@ coal_powder_item.name = "coal-powder"
 
 coal_powder_item.icons = {
     {
-        icon = "__ReFactorio__/icons/coal-powder.png",
+        icon = "__SiliconAge__/icons/coal-powder.png",
         icon_size = 64,
     }
 }
 
 coal_powder_item.pictures = {
     {
-        filename = "__ReFactorio__/icons/coal-powder.png",
+        filename = "__SiliconAge__/icons/coal-powder.png",
         width = 64,
         height = 64,
         scale = 0.75,

@@ -1,12 +1,12 @@
 {
-    "name": "ReFactorio",
+    "name": "SiliconAge",
     "version": "0.0.2",
     "factorio_version": "2.1",
-    "title": "ReFactorio",
+    "title": "Silicon Age",
     "author": "LincolnCox29, MHSPlay",
-    "contact": "",
+    "contact": "https://steamcommunity.com/id/LincolnCox29/",
     "homepage": "",
-    "description": "",
+    "description": "Silicon Age reworks the electronics chain. CPU, RAM, transistor, and more!",
     "dependencies": [
         "base >= 2.1.20"
     ],

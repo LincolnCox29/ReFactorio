@@ -3,7 +3,7 @@ return {
     name = "microelectronics",
     icons = {
         {
-            icon = "__ReFactorio__/icons/microchip.png",
+            icon = "__SiliconAge__/icons/microchip.png",
             icon_size = 64,
         }
     },

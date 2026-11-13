@@ -3,7 +3,7 @@ return {
     name = "alloy-smelting",
     icons = {
         {
-            icon = "__ReFactorio__/icons/blast-furnance.png",
+            icon = "__SiliconAge__/icons/blast-furnance.png",
             icon_size = 64,
         }
     },

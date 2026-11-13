@@ -4,14 +4,14 @@ crusher_item.place_result = "crusher"
 
 crusher_item.icons = {
     {
-        icon = "__ReFactorio__/icons/crusher.png",
+        icon = "__SiliconAge__/icons/crusher.png",
         icon_size = 64,
     }
 }
 
 crusher_item.pictures = {
     {
-        filename = "__ReFactorio__/icons/crusher.png",
+        filename = "__SiliconAge__/icons/crusher.png",
         width = 64,
         height = 64,
         scale = 0.65,

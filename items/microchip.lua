@@ -3,14 +3,14 @@ microchip_item.name = "microchip"
 
 microchip_item.icons = {
     {
-        icon = "__ReFactorio__/icons/microchip.png",
+        icon = "__SiliconAge__/icons/microchip.png",
         icon_size = 64,
     }
 }
 
 microchip_item.pictures = {
     {
-        filename = "__ReFactorio__/icons/microchip.png",
+        filename = "__SiliconAge__/icons/microchip.png",
         width = 64,
         height = 64,
         scale = 0.65,

@@ -1,7 +1,7 @@
 return {
     type = "technology",
     name = "radio-components",
-    icon = "__ReFactorio__/icons/transistor.png",
+    icon = "__SiliconAge__/icons/transistor.png",
     icon_size = 64, 
     
     prerequisites = {

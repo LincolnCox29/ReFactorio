@@ -3,7 +3,7 @@ crusher.name = "crusher"
 
 crusher.icons = {
     {
-        icon = "__ReFactorio__/icons/crusher.png",
+        icon = "__SiliconAge__/icons/crusher.png",
         icon_size = 64,
     }
 }
@@ -12,7 +12,7 @@ crusher.graphics_set = {
     animation = {
         layers = {
             {
-                filename = "__ReFactorio__/animations/crusher.png",
+                filename = "__SiliconAge__/animations/crusher.png",
                 priority = "high",
 
                 width = 400,
@@ -37,6 +37,6 @@ crusher.placeable_by = {
     count = 1
 }
 
-crusher.crafting_categories = {"refactorio-crushing"}
+crusher.crafting_categories = {"crushing"}
 
 return crusher

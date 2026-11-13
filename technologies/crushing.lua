@@ -3,7 +3,7 @@ return {
     name = "crushing",
     icons = {
         {
-            icon = "__ReFactorio__/icons/crusher.png",
+            icon = "__SiliconAge__/icons/crusher.png",
             icon_size = 64,
         }
     },

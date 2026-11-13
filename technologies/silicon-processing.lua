@@ -1,7 +1,7 @@
 return {
     type = "technology",
     name = "silicon-processing",
-    icon = "__ReFactorio__/icons/silicon-plate.png",
+    icon = "__SiliconAge__/icons/silicon-plate.png",
     icon_size = 32, 
     
     prerequisites = {

@@ -3,14 +3,14 @@ ram_item.name = "ram"
 
 ram_item.icons = {
     {
-        icon = "__ReFactorio__/icons/ram.png",
+        icon = "__SiliconAge__/icons/ram.png",
         icon_size = 64,
     }
 }
 
 ram_item.pictures = {
     {
-        filename = "__ReFactorio__/icons/ram.png",
+        filename = "__SiliconAge__/icons/ram.png",
         width = 64,
         height = 64,
         scale = 0.65,

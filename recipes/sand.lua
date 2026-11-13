@@ -1,7 +1,7 @@
 return {
     type = "recipe",
     name = "sand",
-    categories = {"refactorio-crushing"},
+    categories = {"crushing"},
     energy_required = 1.0,
     enabled = false,
     ingredients = {
